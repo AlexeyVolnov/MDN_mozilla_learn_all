@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="main.css" />
+  <script src="code.js" async></script>
+
+  <title>Игра угадай число</title>
+</head>
+
+<body>
+  <h1>Игра угадай число</h1>
+
+  <div class="ruleOfGame">
+    <p>Правила игры:</p>
+    <p>
+      Игроку предстоит угадать число в интервале от 1 до 100 , при
+      каждой попытке игра будет сообщать больше или меньше то число которое он
+      ввел по сравнению с загаданным.
+    </p>
+  </div>
+
+  <div class="form">
+    <label for="inputUser">Введите число: </label>
+    <input type="text" id="inputUser" class="inputUser" />
+    <input type="submit" value="Угадать" class="inputSubmit" />
+  </div>
+<div class="result">
+  <p class="guesses">Введенные попытки угадать число:</p>
+  <p class="help"></p>
+  <p class="resultGame"></p>
+  <p class="resetButton"></p>
+  <p class="wrong"></p>
+</div>
+
+</body>
+
+</html>
