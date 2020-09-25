@@ -45,6 +45,7 @@ function startGame() {
         inputUser.disabled = true;
         submitUser.disabled = true;
         resultGame.style.backgroundColor = "red";
+        wrong.textContent = "";
 
         addButton();
     }
